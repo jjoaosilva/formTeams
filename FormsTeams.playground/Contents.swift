@@ -20,6 +20,6 @@ main.getStudents()
 
 let teams = main.formNewCyle(teamLegth: 2)
 
-for (index, team) in teams.enumerated() {
+teams.enumerated().forEach { index, team
     print("Team \(index+1) \(team)")
 }
